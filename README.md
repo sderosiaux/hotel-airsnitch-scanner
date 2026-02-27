@@ -1,6 +1,6 @@
 # AirSnitch
 
-Wi-Fi security assessment tool that tests hotel networks for **client isolation bypass** vulnerabilities, based on the [AirSnitch attack (NDSS 2026)](https://www.ndss-symposium.org/ndss-paper/auto-draft-732/).
+Wi-Fi security assessment tool that tests hotel networks for **client isolation bypass** vulnerabilities, based on the [AirSnitch attack (NDSS 2026)](https://www.ndss-symposium.org/wp-content/uploads/2026-f1282-paper.pdf).
 
 Most hotel Wi-Fi networks share a single password across all guests. AirSnitch demonstrates that this design is fundamentally broken: any guest who knows the password can derive the Group Temporal Key (GTK) and inject broadcast frames that bypass client isolation — the only mechanism meant to keep guests separated.
 
@@ -153,6 +153,6 @@ This tool is for **authorized security testing only**. Only use it on networks y
 
 ## References
 
-- [AirSnitch: Exploiting Client Isolation in Hotel Wi-Fi (NDSS 2026)](https://www.ndss-symposium.org/ndss-paper/auto-draft-732/)
+- [AirSnitch: Exploiting Client Isolation in Hotel Wi-Fi (NDSS 2026)](https://www.ndss-symposium.org/wp-content/uploads/2026-f1282-paper.pdf)
 - IEEE 802.11i-2004 — Security mechanisms for wireless LANs
 - RFC 3394 — AES Key Wrap Algorithm
