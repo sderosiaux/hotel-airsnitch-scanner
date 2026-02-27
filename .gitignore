@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv/
+dist/
+*.egg-info/
+.pytest_cache/
+*.log
+audit_*.jsonl
+reports/
+.vagrant/
+*.box
+uv.lock
