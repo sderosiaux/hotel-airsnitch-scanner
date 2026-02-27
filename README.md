@@ -44,14 +44,6 @@ GTK (128 bits)
 CCMP-encrypted broadcast frame → injected via AP → forwarded to all clients
 ```
 
-## Real-world findings
-
-Tested on a hotel network (MikroTik router, WPA2-PSK, shared password):
-
-- **113 guest devices** visible via ARP — no client isolation at L2
-- An unauthenticated **Prometheus + Grafana** stack found running on a guest device, leaking another guest's email, employer, Anthropic org IDs, Claude Code session history, and model usage
-- Gateway running VRRP with captive portal on a flat /20 subnet (4094 hosts)
-
 ## Architecture
 
 ```
